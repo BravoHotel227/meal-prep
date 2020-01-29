@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+header{
+    background: #1E3450;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+  color: #77B1FF;
+  padding: 1rem;
+  font-size: 3rem;
+  font-style: italic;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  flex: 1,1, 60rem;
+  width: 90%;
+  text-shadow: 2px 2px 5px black;
+}
+img{
+    flex: 1, 1, 40rem;
+}sd
+
+img:hover{
+    cursor: pointer;
+}
+
+.container {
+  padding: 2rem;
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Styling for meal planning  */
+
+.meal-table {
+  flex: 1 1 50rem;
+  padding-left: 2rem;
+  text-align: center;
+}
+
+th {
+  font-size: 2rem;
+  color: #185890;
+  background-color: #fff;
+}
+
+td {
+  font-size: 1.5rem;
+  padding: 1rem;
+  background-color: #c6c6c6;
+}
+td:hover {
+  cursor: pointer;
+}
+
+td:nth-child(1) {
+  padding: 2.5rem;
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+td:nth-child(1):hover {
+    cursor: auto;
+}
+
+.monday td:nth-child(1) {
+  background-color: #caa41e;
+}
+.tuesday td:nth-child(1) {
+  background-color: #56b550;
+}
+.wednesday td:nth-child(1) {
+  background-color: #3673c6;
+}
+.thursday td:nth-child(1) {
+  background-color: #30a77c;
+}
+.friday td:nth-child(1) {
+  background-color: #1bc4cf;
+}
+.saturday td:nth-child(1) {
+  background-color: #b35e36;
+}
+.sunday td:nth-child(1) {
+  background-color: #4d439c;
+}
+
+/* Styling for recipes  */
+.recipe {
+  flex: 2 1 50rem;
+}
+h2{
+    font-size: 2rem;
+}
+#recipeList,
+li {
+  font-size: 1.5rem;
+  list-style: none;
+}
