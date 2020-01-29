@@ -9,8 +9,26 @@
   <body>
     <header>
       <h1>Meal Plan</h1>
-      <img id="home" src="icons/home.png" width="32px" height="32px" alt="">
+      <img id="home" src="icons/home.png" width="32px" height="32px" alt="" />
     </header>
+    <div class="login" id="lgn">
+      <div class="userinput">
+        <div class="username">
+          <input type="text" id="ipt-username" placeholder="Username" />
+        </div>
+        <div class="password">
+          <input
+            type="password"
+            id="ipt-password"
+            placeholder="Password"
+          /><br />
+        </div>
+        <button id="submit">Login</button><br />
+        <input type="checkbox" name="rememberlg" id="remember-login" />Remember
+        password
+      </div>
+    </div>
+    -
     <div class="container">
       <div class="meal-plan">
         <table class="meal-table" id="mealTB">
@@ -64,11 +82,12 @@
           </tr>
         </table>
       </div>
-      <div class="recipe">
+      <div class="recipe" id="rcp">
         <h2>Recipes</h2>
         <ul id="recipeList"></ul>
       </div>
     </div>
+
     <script src="js/main.js"></script>
   </body>
 </html>

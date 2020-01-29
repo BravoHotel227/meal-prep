@@ -29,7 +29,7 @@ h1 {
 }
 img{
     flex: 1, 1, 40rem;
-}sd
+}
 
 img:hover{
     cursor: pointer;
@@ -43,12 +43,40 @@ img:hover{
   justify-content: center;
 }
 
+/* Styling for login box */
+.login{
+  box-shadow: 2px 2px 10px black;
+  width: 25vw;
+  height: 50vh;
+  margin: auto;
+  display: flex;
+  margin-top: 20vh;
+}
+
+.userinput{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+}
+
+.userinput, div{
+  padding: 1rem;
+  
+}
+
+.userinput, input{
+  padding: .5rem;
+}
+
 /* Styling for meal planning  */
 
 .meal-table {
   flex: 1 1 50rem;
   padding-left: 2rem;
   text-align: center;
+  display:none;
 }
 
 th {
@@ -101,6 +129,7 @@ td:nth-child(1):hover {
 /* Styling for recipes  */
 .recipe {
   flex: 2 1 50rem;
+  display: none;
 }
 h2{
     font-size: 2rem;
